@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // backend ka base URL
+  baseURL: "https://marketflue-1.onrender.com/api", // 👈 Render backend ka URL
 });
 
 export default api;
